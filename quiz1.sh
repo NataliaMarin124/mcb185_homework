@@ -1,4 +1,5 @@
-Natalia Marin zsh 
+Echo Natalia Marin 
+zsh 
 gunzip -c dictionary | grep "a" | grep -v "[^aumcfto]" 
 gunzip -c dictionary | grep "b" | grep -v "[^atrnlib]" 
 gunzip -c dictionary | grep "c" | grep -v "[^camdino]"
