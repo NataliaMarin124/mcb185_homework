@@ -1,5 +1,5 @@
-### Unit 2 Notes ###
-====================
+#	Unit 2 Notes
+
 
 #print() is a statement
 #any line that begins with "#" is a comment 
@@ -19,7 +19,7 @@
 #pow(x, y) x to the power of y
 #round(x, ndigits=3) round off x to 3 digits 
 
-#	(ints) vs (floats)
+### (ints) vs (floats) ###
 
 #an integer will have an exact value 
 #floating numbers are approximations 
