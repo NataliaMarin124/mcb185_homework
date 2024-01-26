@@ -14,3 +14,7 @@ print(2 ** 0.5)
 print(math.sqrt(4))
 print(math.sqrt(2))
 print(math.log(2))
+a = 3						# side of triangle
+b = 4						# side of triangle 
+c = math.sqrt(a**2 + b**2)	#hypotenuse
+print(c)
