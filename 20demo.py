@@ -122,5 +122,9 @@ else:
 if a < b or a > b: print('all things being equal a and b are not')
 if a < b and a > b: print('you are living in a strange world')
 if not False: print(True)
+
+def hyrdo_aminoacid(aa):
+	if aa == "A":
+		return "1.8"
 	
 	
