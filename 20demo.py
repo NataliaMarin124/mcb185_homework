@@ -74,11 +74,53 @@ print(mph_kph(35))
 print(mph_kph(121))
 
 def kph_mph(x,):
-	return x*0.6213
+	return x * 0.6213
 	
 print(kph_mph(9))
 print(kph_mph(53))
 
+def dna_od260(x, y):
+	return 50 * x * y		# x is OD at 260 and y is dilution factor 
+	
+print(dna_od260(0.325, 50))
+print(dna_od260(0.265, 256))
 
+def distance_form(x1, y1, x2, y2):
+	return math.sqrt((x2-x1)**2 + (y2-y1)**2)
+	
+print(distance_form(1, 1, 3, 4))
+print(distance_form(-5, -4, 6, 1))
 
+def midpoint(x1, y1, x2, y2):
+	x = (x1+x2)/2
+	y = (y1+y2)/2
+	return x, y 
+	
+print(midpoint(1, 1, 2, 2))
+print(midpoint(3, 9, 4, 6))
+
+s = 'hello world'
+print(s, type(s))
+
+a = 0.3
+b = 0.1 * 3
+if a == b:
+	print('a equals b')
+print(a, b)
+
+c = a==b
+print(c)
+print(type(c))
+
+if a < b:
+	print('a < b')
+elif a > b:
+	print('a > b')
+else: 
+	print('a == b')
+
+if a < b or a > b: print('all things being equal a and b are not')
+if a < b and a > b: print('you are living in a strange world')
+if not False: print(True)
+	
 	
