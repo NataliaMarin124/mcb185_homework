@@ -19,9 +19,7 @@ def quad_formula(a, b, c,):
 		print('two solutions')
 		return x1, x2
 		
-		
-	
-	
+#sample runs
 print(quad_formula(2, 3, 1))
 print(quad_formula(-3, -1, 2))
 print(quad_formula(-4, -6, 7))
