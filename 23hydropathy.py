@@ -31,3 +31,4 @@ print(hyrdo_aminoacid('W'))
 print(hyrdo_aminoacid('R'))
 print(hyrdo_aminoacid('A'))
 print(hyrdo_aminoacid('Z'))
+
