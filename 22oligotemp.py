@@ -3,12 +3,13 @@
 import math
 
 def melt_oligos(A, T, G, C):
-	if A + T + G + C <= 13:
+	length = A + T + G + C
+	if length <= 13:
 		x = (A+T)*2 + (G+C)*4
 		return x
 		
-	if A + T + G + C > 13: 
-		x = 64.9 + 41*((G+C - 16.4)/(A + T + G + T))
+	if length > 13: 
+		x = 64.9 + 41*((G+C - 16.4)/(length))
 		return x
 
 #sample runs 

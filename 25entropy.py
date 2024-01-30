@@ -1,6 +1,7 @@
 # 25entropy.py 
 import math 
 
+#you should assert that total_nuc does not equal to zero because you can't divide by zero
 def shannon_entropy(a, c, g, t):
 	h=0								#starting entropy value 					
 	total_nuc = a + g + c + t

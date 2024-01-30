@@ -1,4 +1,5 @@
 # 24accuracy.py by Natalia_Marin
+#you can cake two functions for accuracy and f1 and make a performance funct. you can 
 
 def performance(tp, fp, tn, fn):
 	p = tp / (tp + fp)				#defining formulas for precision(p), recall(r)
