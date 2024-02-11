@@ -35,6 +35,6 @@ for i in range(1, 5001):
 	if roll == 'revived': rc += 1
 	if roll == 'stable' : sc += 1
 	if roll == 'dead'   : dc += 1
-print(f'P(revived)= {rc / 5000}, P(stable) = {sc / 5000}, P(death) = {dc / 5000}')
+print(f'P(revived)={rc/5000}, P(stable)={sc/5000}, P(death)={dc/5000}')
 	
 			

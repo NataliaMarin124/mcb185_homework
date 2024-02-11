@@ -5,7 +5,6 @@ import random
 
 def montecarlo_pi():
 	incircle	= 0
-	outcircle 	= 0
 	totalvalues = 0
 	
 	while True:
