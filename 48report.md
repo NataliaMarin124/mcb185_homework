@@ -3,14 +3,14 @@
 Program Results
 ===============
 
-## 45dndstats.py##
+## 45dndstats.py
 
-+ 3D6 average score: 10.49
++ 3D6 average score:   10.49
 + 3D6r1 average score: 11.74
 + 3D6x2 average score: 13.42
 + 4D6d1 average score: 11.90
 
-## 46deathsaves.py##
+## 46deathsaves.py
 
 |P(Success)   |DC=5 |DC=10|DC=15|
 |:------------|:---:|:---:|:---:|
