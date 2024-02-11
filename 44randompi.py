@@ -3,28 +3,25 @@
 
 import random
 
-import math
-
 def montecarlo_pi():
 	incircle	= 0
 	outcircle 	= 0
 	totalvalues = 0
 	
 	while True:
-		x = random.randint(0, 1)
-		y = random.randint(0, 1)
-		distance = math.sqrt(x**2 + y**2)
+		x = random.random()
+		y = random.random()
+		distance = (x**2 + y**2)**.5
 		
-		if distance <= 1: 
+		if distance < 1: 
 			incircle += 1
-		else:
-			outcircle += 1
-		totalvalues = outcircle + incircle
-		pi = incircle / totalvalues
-		print(4 * pi)
+		
+		totalvalues +=1
+		
+		pi = (incircle / totalvalues) * 4
+		print('Iteration:', totalvalues, 'pi:', pi )
 
 montecarlo_pi()
-		
-		
+
 		
 			
