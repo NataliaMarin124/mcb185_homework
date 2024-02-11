@@ -5,6 +5,7 @@ import random
 import sys
 
 """
+#github solution to problem
 gamesplayed = 1000
 for i in range(gamesplayed):
 	score = 0           
