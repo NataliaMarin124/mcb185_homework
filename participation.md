@@ -17,10 +17,10 @@ Participation for Natalia Marin
 | U | AC | VP | AQ | OC | SH | SA | CA | OA | Tot | Notes
 |:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:--------
 | 5 | 4  | 2  | 2  |    |    |    |    |    |  8  |
-| 6 |    |    |    |    |    |    |    |    |     |
+| 6 | 4  |    | 2  |  2 |    |  1 |  2 |  1 | 12  | 1.
 | 7 |    |    |    |    |    |    |    |    |     |
 | 8 |    |    |    |    |    |    |    |    |     |
 | 9 |    |    |    |    |    |    |    |    |     |
 
 Notes:
-
+1.Helped student with code in class.
