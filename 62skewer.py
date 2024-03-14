@@ -1,4 +1,4 @@
-#62skewer.py by Natalia Marin 
+#62skewer.py by Natalia Marin + coderie sessions
 #more efficient version of 61skewer.py
 
 import sys

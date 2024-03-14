@@ -18,9 +18,10 @@ Participation for Natalia Marin
 |:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:--------
 | 5 | 4  | 2  | 2  |    |    |    |    |    |  8  |
 | 6 | 4  |    | 2  | 2  |    |  1 |  2 |  1 | 12  | 1.
-| 7 | 2  |    | 1  | 2  |    |  1 |    |    |  6  |
-| 8 |    |    |    |    |    |    |    |    |     |
-| 9 |    |    |    |    |    |    |    |    |     |
+| 7 | 4  |    | 1  | 2  |    |  1 |    |  1 |  6  | 2.
+| 8 | 4  |    |    | 2  |    |  1 |    |    |  7  |
+| 9 | 2  |    | 1  |    |    |    |    |    |     |
 
 Notes:
 1.Helped student with code in class.
+2.Stayed after class for 30min to help student with code
