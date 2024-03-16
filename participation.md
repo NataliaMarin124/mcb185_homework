@@ -20,7 +20,7 @@ Participation for Natalia Marin
 | 6 | 4  |    | 2  | 2  |    |  1 |  2 |  1 | 12  | 1.
 | 7 | 4  |    | 1  | 2  |    |  1 |    |  1 |  6  | 2.
 | 8 | 4  |    |    | 2  |    |  1 |    |    |  7  |
-| 9 | 2  |    | 1  |    |    |    |    |    |     |
+| 9 | 4  |    | 2  | 2  |    |  1 |    |    |  9  |
 
 Notes:
 1.Helped student with code in class.
