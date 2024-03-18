@@ -72,7 +72,6 @@ for i in range(1000):
 	if 'MYNAMEISIAN' in words: 
 		print('found')
 
-
  
 def kdh_list(seq):
 	aas = 'ARNDCEQGHILMKFPSTWYV'
@@ -100,6 +99,4 @@ print(protein)
 
 import itertools
 for nts in itertools.product('ACGT', repeat=1):
-    print(nts)
-
-
+	print(nts)

@@ -9,12 +9,14 @@ import sys
 fasta = sys.argv[1]
 
 for k in range(4, 10):
-	print('checking', k)
+	#print('checking', k)
 	
 	#getting all kmers for all seq
 	kcount= {}
 	for defline, seq in mcb185.read_fasta(fasta):
 		rev_seq = dogma.reversecomp(seq)
+		#print(seq[30:])
+		#print(rev_seq[30:])
 
 		for i in range(len(rev_seq) -k +1):
 			kmer = rev_seq[i:i+k]
@@ -29,7 +31,7 @@ for k in range(4, 10):
 	
 	#checking all kmers against all possible kmer
 	if len(kcount.keys()) == 4**k: continue
-	print(k)
+	#print(k)
 	
 	#report missing kmers
 	for ktup in itertools.product('ACGT', repeat=k):
