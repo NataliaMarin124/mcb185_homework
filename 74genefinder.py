@@ -1,4 +1,4 @@
-#74genefinder.py by Natalia Marin 
+#74genefinder.py by Natalia Marin + coderie sessions
 #program reports putative coding genes 
 
 import mcb185
