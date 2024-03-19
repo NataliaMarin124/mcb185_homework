@@ -24,7 +24,8 @@ def cds_finder(seq):
 						stop_index = j
 						if stop_index - start_index >= min_len:
 							coordinates[start_index] = stop_index + 2
-						break			
+						break
+					i = j						
 			i += 3
 	return coordinates 
 
